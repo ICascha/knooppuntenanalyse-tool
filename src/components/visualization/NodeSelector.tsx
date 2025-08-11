@@ -6,7 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Node } from './networkDataService';
+import { Node } from './networkGraph/networkService';
 import { shortNodeDescriptions } from './shortNodeDescriptions';
 
 interface NodeSelectorProps {

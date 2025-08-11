@@ -27,7 +27,7 @@ The analysis employs a directed Eigenvector Centrality algorithm to identify cri
 
 ### Core Application (`/src`)
 
-- `/components/layout/` - Main layout components
+- `/components/layout/` - Main layout and supporting visualization components
   - `NarrativeLayout.tsx` - Primary application layout
   - `CentralNodeExample.tsx` - Example visualization demonstrating central node analysis
   - `TraditionalRiskMatrix.tsx` - Example risk matrix visualization
@@ -48,7 +48,7 @@ The analysis employs a directed Eigenvector Centrality algorithm to identify cri
   - `threatImpactService.ts` - Threat analysis
   - `types.ts` - TypeScript definitions
 
-- `/components/visualization/relationGraph/` - Relationship visualization (Example visualization supporting the main networkGraph)
+- `/components/visualization/relationGraph/` - Relationship visualization (Interactive visualization supporting the main networkGraph)
   - `RelationGraphCanvas.tsx` - Relation-specific graph rendering
   - `GraphCanvas.tsx` - Base graph canvas component
   - `EdgeLine.tsx` - Edge rendering + interactivity component
@@ -72,7 +72,7 @@ The analysis employs a directed Eigenvector Centrality algorithm to identify cri
 
 ### Data Files (`/public`)
 
-- `nodes.json` - Network node data (fro, backend)
+- `nodes.json` - Network node data (from backend)
 - `edges.json` - Network edge data (from backend)
 - `threat_impact.json` - Threat impact analysis data (from methodology)
 
@@ -80,7 +80,7 @@ The analysis employs a directed Eigenvector Centrality algorithm to identify cri
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ICascha/knooppuntenanalyse-tool
    cd denkwerk-knooppuntenanalyse
    ```
 
